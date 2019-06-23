@@ -2,10 +2,10 @@
  * Axel Boberg © 2019
  */
 
-const ServerError = require('./error/ServerError')
+const ServerError = require('./lib/error/ServerError')
 
-const uri = require('./uri')
-const defaults = require('./defaults')
+const uri = require('./lib/uri')
+const defaults = require('./lib/defaults')
 
 const request = require('request')
 
