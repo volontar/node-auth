@@ -1,0 +1,29 @@
+{
+  "name": "volontar",
+  "version": "1.0.0",
+  "description": "A library for NodeJS to authorize against Volontär",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js",
+    "monitor": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volontar/node-volontar.git"
+  },
+  "keywords": [
+    "oauth2",
+    "volontar",
+    "volontär"
+  ],
+  "author": "Axel Boberg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/volontar/node-volontar/issues"
+  },
+  "homepage": "https://github.com/volontar/node-volontar#readme",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
