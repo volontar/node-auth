@@ -25,5 +25,8 @@
   "homepage": "https://github.com/volontar/node-volontar#readme",
   "devDependencies": {
     "jest": "^24.8.0"
+  },
+  "dependencies": {
+    "request": "^2.88.0"
   }
 }
