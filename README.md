@@ -13,7 +13,7 @@ const Client = require('volontar')
 const myClient = new Client({
     clientId: 'myClientId',
     clientSecret: 'myClientSecret',
-    redirectUri: 'https://example.com/callback
+    redirectUri: 'https://example.com/callback'
 })
 
 app.get('/signin', (req, res, next) => {
