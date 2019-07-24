@@ -80,6 +80,9 @@ function Client (opts = {}) {
   if (!_opts.redirectUri) throw new ReferenceError(`Missing required parameter 'redirectUri'`)
   if (!_opts.clientSecret) throw new ReferenceError(`Missing required parameter 'clientSecret'`)
 
+  // Expose options
+  this.opts = _opts
+
   /**
    * Generate a url for authorization
    * @param { String } scope A space-separated string of the requested scopes
